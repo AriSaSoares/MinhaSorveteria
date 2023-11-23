@@ -1,0 +1,46 @@
+.ImgCad {
+    background-image: url("https://i.pinimg.com/564x/3b/78/94/3b789404e92b6e67f2f2f8feaf745aaf.jpg");
+   
+}
+
+.Til {
+    width: 40%;
+    background-color: wheat;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+    color: black;
+    font-size: 1.3em;
+    border: 3px solid black;
+    border-radius: 1em;
+    font-family: 'Arial';
+}
+
+.Camp {
+    padding: 0.5em;
+    background-color: wheat;
+    border-bottom: 3px solid black;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
+
+.Buton {
+    width: 20%;
+    background-color: wheat;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+    color: black;
+    font-size: 1.3em;
+    border: 3px solid black;
+    border-radius: 1em;
+    font-family: 'Arial';
+}
+
+.Buton:hover {
+    background-color: chocolate;
+    transition: 0.6s;
+}

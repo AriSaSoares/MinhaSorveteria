@@ -1,0 +1,28 @@
+.ImgCad {
+    background-image: url("https://i.pinimg.com/564x/79/3a/89/793a89689effe7196d52132786abcf12.jpg");
+   
+}
+#ImgLin {
+    width: 50%;
+}
+.Til {
+    width: 40%;
+    background-color: wheat;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+    color: black;
+    font-size: 1.3em;
+    border: 3px solid black;
+    border-radius: 1em;
+    font-family: 'Arial';
+}
+.Camp {
+    padding: 0.5em;
+    background-color: wheat;
+    border-bottom: 3px solid black;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
