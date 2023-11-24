@@ -1,68 +1,74 @@
-body {
-font-family: Helvetica, sans-serif;
-padding: 5%;
-text-align: center;
-font-size: 50;
+.body {
+  background-color: antiquewhite;
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+  text-align: center;
+  font-size: 50;
 }
 
 
 #slideshow {
-    overflow: hidden;
-    height: 510px;
-    width: 728px;
-    margin: 0 auto;
-  }
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+
+.slide-wrapper {
+
+ 
+  width: calc(728px 4);
 
   
-  .slide {
-    float: left;
-    height: 510px;
-    width: 728px;
-  }
+  animation: slide 10s ease infinite;
+}
 
-  .slide-wrapper {
 
-    
-    width: calc(728px 4);
+.slide:nth-child(1) {
+  background: green;
+  background-image: url("https://cdn.create.vista.com/api/media/small/185305574/stock-vector-ice-cream-design");
+}
 
-    
-    animation: slide 10s ease infinite;
-  }
 
-  
-  .slide:nth-child(1) {
-    background-image: url("https://i.pinimg.com/736x/68/fe/5b/68fe5b1d0ff0ddd236c4e3a8cb85eb6d.jpg ");
-  }
+.slide:nth-child(2) {
+  background-image: url("https://samgraph.ir/wp-content/uploads/2023/01/ice-cream-icons-collection-colorful-tasty-shapes-1-1.jpg");
+}
 
-  .slide:nth-child(2) {
-    background-image: url("https://i.pinimg.com/564x/00/03/4e/00034e91e71e9750a58118cf720e68c3.jpg ");
-  }
+.slide:nth-child(3) {
+  background-image: url("https://th.bing.com/th/id/OIP.UtHOFpQdU7AAp4jJ-eyf5AAAAA?w=416&h=416&rs=1&pid=ImgDetMain");
+}
 
-  .slide:nth-child(3) {
-    background-image: url("https://i.pinimg.com/564x/4d/b3/f0/4db3f0ad3d0099b1a0f2a1e42bcef2f7.jpg");
-  }
 
-  .slide:nth-child(4) {
-    background-image: url("https://i.pinimg.com/564x/c7/0e/12/c70e12f64c73dc83ffa5103fec84c92a.jpg");
-  }
+.slide:nth-child(4) {
+  background-image: url("https://media.istockphoto.com/vectors/ice-cream-set-cute-cartoon-characters-vector-id883264832?k=6&m=883264832&s=612x612&w=0&h=FKIKF7nf0UGwKw-hafbGpIpM5ewhhRNdkBn45YSjrK0=");
+}
+
+
+
+@keyframes slide {
 
   
-  @keyframes slide {
-
-
-    20% {
+  20% {
       margin-left: 0px;
-    }
-
-    40% {
-      margin-left: calc(-728px 1);
-    }
-
-    60% {
-      margin-left: calc(-728px * 2);
-    }
-
-    80% {
-      margin-left: calc(-728px * 3);
-    }
   }
+
+  40% {
+      margin-left: calc(-728px 1);
+  }
+
+  60% {
+      margin-left: calc(-728px * 2);
+  }
+
+  80% {
+      margin-left: calc(-728px * 3);
+  }
+}
